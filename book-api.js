@@ -28,7 +28,7 @@ app.post('/login', (req, res) => {
     console.log(book);
     books.push(book);
 
-    // res.redirect('https://desk.zoho.com/installExtension?extensionId=1c7a0275-b8b8-4235-b528-b1b625d0dbaa&version=11.0&hash=b2e8c876c99c38a07bf9c623a245d4a75c5710ea78610128d9c919d22d30f9a0');
+    res.redirect('https://desk.zoho.com/installExtension?extensionId=1c7a0275-b8b8-4235-b528-b1b625d0dbaa&version=11.0&hash=b2e8c876c99c38a07bf9c623a245d4a75c5710ea78610128d9c919d22d30f9a0');
 });
 
 app.get('/data', (req, res) => {
