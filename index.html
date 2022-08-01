@@ -10,18 +10,18 @@
 
 <body>
     <div class="container">
-        <form action="http://localhost:3000/data" method="GET">
+        <form action="http://localhost:3000/login" method="POST">
             <div class="form-group">
                 <label for="username">Username</label>
-                <input id="username" type="text" name="username" placeholder="Username" required autocomplete="on">
+                <input id="username" type="text" name="username" placeholder="Username"  autocomplete="on">
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input id="email" type="email" name="email" placeholder="Email" required autocomplete="on">
+                <input id="email" type="email" name="email" placeholder="Email"  autocomplete="on">
             </div>
             <div class="form-group">
                 <label for="code">Code</label>
-                <input id="code" type="text" name="code" placeholder="Code" required autocomplete="on">
+                <input id="code" type="text" name="code" placeholder="Code"  autocomplete="on">
             </div>
             <button id="send" type="submit" class="btn btn-primary">Submit</button>
         </form>
